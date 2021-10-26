@@ -1,0 +1,42 @@
+{
+  "name": "goit-js-hw-12-countries",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "start": "webpack server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saftar94/goit-js-hw-12-countries.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saftar94/goit-js-hw-12-countries/issues"
+  },
+  "homepage": "https://github.com/Saftar94/goit-js-hw-12-countries#readme",
+  "devDependencies": {
+    "handlebars-loader": "^1.7.1",
+    "sass": "^1.43.3",
+    "sass-loader": "^12.2.0",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "api-core": "^3.0.0",
+    "css-loader": "^6.4.0",
+    "gh-pages": "^3.2.3",
+    "handlebars": "^4.7.7",
+    "html-loader": "^3.0.0",
+    "html-webpack-plugin": "^5.4.0",
+    "lodash": "^4.17.21",
+    "style-loader": "^3.3.1",
+    "sweetalert": "^2.1.2",
+    "typescript": "^4.4.4",
+    "webpack-dev-server": "^4.3.1"
+  }
+}

@@ -1,0 +1,27 @@
+<div class='cards'>
+  {{#each this}}
+    <div class='card-img-top'>
+      <img alt='flags' src="{{flags.png}}" />
+    </div>
+    <div class='card=body'>
+      <h2 class='card-title'>
+        {{name}}
+      </h2>
+      <p class='card-text'>
+        Столица:{{capital}}
+      </p>
+      <p class='card-text'>
+        Насиление:{{population}}
+      </p>
+      {{#each languages}}
+        <ul>
+          <li class='card-text'>
+            {{name}}
+          </li>
+        </ul>
+      {{/each}}
+      <p class='card-text'>
+      </p>
+    </div>
+  {{/each}}
+</div>

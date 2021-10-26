@@ -1,0 +1,37 @@
+body {
+  background-color: #4dd32bb4;
+}
+
+.swal-title {
+  color: #4b1248;
+  font-weight: 700;
+  padding: 0;
+  font-size: 18px;
+}
+
+.swal-modal {
+  background: linear-gradient(#f0c27b, #f0c27b);
+}
+
+.input {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #0e239b;
+}
+.input:hover {
+  border: 1px solid #ecf009;
+}
+
+.container {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.flags-img {
+  height: 35px;
+  width: 50px;
+}
+
+.card-title {
+  color: rgb(20, 35, 243);
+}
